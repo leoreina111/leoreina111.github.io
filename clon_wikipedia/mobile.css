@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    width: 100%;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+header .central-text-logo img{
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+main{
+    margin-top: 50px;
+    width: auto;
+    align-items: center;
+}
+
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    align-items: center;
+}
+
+main .main-input-container{
+    width: 525px;
+    border-radius: 0px;
+    border: 1px solid #e3e4e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .featured{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 546px;
+    height: 300px;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+    padding-left: 40px;
+    column-gap: 50px;
+    grid-template-areas:  " . langEs langEs . . langEn langEn . . "
+                          " langCn1 langCn1 . world world world langDe langDe . "
+                          " langPy langPy . world world world  langFr langFr langFr"
+                          " langIt langIt .  world world world  langCn2 langCn2 . "
+                          " .  langPt langPt . . langPo langPo . . ";
+}
+
+main a{
+    text-align: center;
+    text-decoration: none;
+}
+
+main .langEs {
+    grid-area: langEs;
+    width: 125px;
+}
+main .langCn1 {
+   grid-area: langCn1;
+   width: 125px;
+}
+main .langPy {
+   grid-area: langPy;
+   width: 125px;
+}
+main .langIt {
+  grid-area: langIt;
+  width: 125px;
+}
+main .langPt {
+   grid-area: langPt;
+   width: 125px;
+}
+main .langEn {
+  grid-area: langEn;
+  width: 125px;
+}
+main .langDe {
+  grid-area: langDe;
+  width: 125px;
+}
+main .langFr {
+  grid-area: langFr;
+  width: 125px;
+}
+main .langCn2 {
+  grid-area: langCn2;
+  width: 125px;
+}
+main .langPo {
+  grid-area: langPo;
+  width: 125px;
+}
+
+main .langEs:hover {
+    background-color:#eaecf0;
+}
+main .langCn1:hover {
+    background-color:#eaecf0;
+}
+main .langPy:hover {
+    background-color:#eaecf0;
+}
+main .langIt:hover {
+    background-color:#eaecf0;
+}
+main .langPt:hover {
+    background-color:#eaecf0;
+}
+main .langEn:hover {
+    background-color:#eaecf0;
+}
+main .langDe:hover {
+    background-color:#eaecf0;
+}
+main .langFr:hover {
+    background-color:#eaecf0;
+}
+main .langCn2:hover {
+    background-color:#eaecf0;
+}
+main .langPo:hover {
+    background-color:#eaecf0;
+}
+
+main .featured_img_container{
+    grid-area: world;
+}
+
+main .world{
+    width: 200px;
+    margin-left: -50px;
+}
+
+main a .featured__title{
+    font-size: 2.0rem;
+    color: #3366cc;
+}
+
+main a .featured__title:hover{
+    text-decoration: underline;
+}
+
+main .featured__article-counter{
+    font-family: inherit;
+    color:gray;
+    font-size: 1.0rem;
+    margin: 0 auto;
+}
+
+main .main-input .search-item{
+    background-color: blue;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+}
